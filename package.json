@@ -1,6 +1,6 @@
 {
   "name": "@gujiwuqing/tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/bundle.cjs",
   "module": "./dist/bundle.mjs",
   "types": "./dist/bundle.d.ts",
