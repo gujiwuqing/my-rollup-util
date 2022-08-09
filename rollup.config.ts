@@ -16,7 +16,7 @@ export default defineConfig([
         format: "esm",
       },
     ],
-    plugins: [typescript({ compilerOptions: { lib: ["esnext"] } })],
+    plugins: [typescript({ compilerOptions: { lib: ["esnext", "dom"] } })],
     watch: {
       exclude: "node_modules/**",
     },

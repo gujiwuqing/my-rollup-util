@@ -8,6 +8,15 @@
     "dist"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/gujiwuqing/my-rollup-util/blob/main/README.md",
+  "author": {
+    "name": "gujiwuqing",
+    "email": "15279279713@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gujiwuqing/my-rollup-util.git"
+  },
   "scripts": {
     "dev": "rollup --config rollup.config.ts --watch",
     "build": "rollup --config rollup.config.ts"
