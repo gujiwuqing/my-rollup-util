@@ -6,7 +6,7 @@ name: Node.js Package
 on:
   push:
     branches:
-      - main  //推送到main分支触发构建
+      - main  
 
 jobs:
   build:
@@ -29,4 +29,4 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm}} //刚刚添加的npm的token值(注意这里的secrets.xxx里面的xxx要和上面自定义token名的Name对应上)
+          NODE_AUTH_TOKEN: ${{secrets.npm}} 
