@@ -1,11 +1,16 @@
 {
   "name": "@gujiwuqing/tool",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/bundle.cjs",
   "module": "./dist/bundle.mjs",
   "types": "./dist/bundle.d.ts",
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "前端",
+    "前端工具库",
+    "utils"
   ],
   "license": "MIT",
   "homepage": "https://github.com/gujiwuqing/my-rollup-util/blob/main/README.md",
